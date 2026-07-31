@@ -1,4 +1,5 @@
-import { AbstractModelRunner } from '../core/AbstractModelRunner.js';
+// Correct relative path from src/main.js:
+import { TreeClassifierRunner } from './models/TreeClassifierRunner.js';
 
 /**
  * Concrete Subclass implementing the abstract methods for Hugging Face Inference

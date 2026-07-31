@@ -1,4 +1,5 @@
-import { TreeClassifierRunner } from './models/TreeClassifierRunner.js';
+// Correct relative path from src/models/TreeClassifierRunner.js:
+import { AbstractModelRunner } from '../core/AbstractModelRunner.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
   console.log("Initializing ML Web App...");
